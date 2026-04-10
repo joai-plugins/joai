@@ -1,0 +1,18 @@
+interface:
+  display_name: "JoAi"
+  short_description: "Connect JoAi to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server."
+  icon_small: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/joai.svg"
+  icon_large: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/joai.svg"
+  brand_color: "#98FF98"
+  default_prompt: "List the JoAi tools available in this app."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "joai-joai"
+      description: "JoAi MCP server by JoAi"
+      transport: "streamable_http"
+      url: "https://cortex.joai.ai/mcp/apps/joai"
