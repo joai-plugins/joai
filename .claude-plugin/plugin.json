@@ -1,0 +1,9 @@
+{
+  "name": "joai",
+  "version": "0.3.0",
+  "description": "JoAi plugin",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai"
+  }
+}
